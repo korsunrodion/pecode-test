@@ -1,0 +1,25 @@
+@import "src/index";
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: rem(32);
+    justify-content: center;
+    margin-top: rem(12);
+    
+    .item {
+      cursor: pointer;
+    }
+  }
+
+  .paginationWrapper {
+    margin-top: rem(20);
+  }
+}

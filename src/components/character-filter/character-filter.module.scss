@@ -1,0 +1,17 @@
+@import "src/index";
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: rem(16);
+  margin-bottom: rem(16);
+
+  .input {
+    flex-grow: 2;
+  }
+
+  .select {
+    flex-grow: 1;
+  }
+}

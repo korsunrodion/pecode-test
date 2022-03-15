@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  flex-grow: 1;
+  position: relative;
+
+  &:not(:first-child) {
+    border-top: 1px solid black;
+  }
+
+  .controls {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+  }
+}

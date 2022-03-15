@@ -1,0 +1,25 @@
+@import "src/index";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: rem(16);
+
+  .itemsWrapper {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    width: 440px;
+    margin-bottom: rem(16);
+  }
+
+  .input {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: rem(8);
+  }
+}

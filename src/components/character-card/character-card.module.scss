@@ -1,0 +1,31 @@
+@import "src/index";
+
+.characterCard {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  border-radius: 5px;
+  border: 1px solid var(--color-brown);
+  height: 416px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 2px 6px;
+
+  .logo {
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  .infoWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: rem(8);
+
+    .label {
+      opacity: 0.7;
+    }
+
+    .info {
+      margin-bottom: rem(4);
+    }
+  }
+}

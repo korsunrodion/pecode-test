@@ -1,0 +1,15 @@
+@function rem ($size) {
+  @return ($size / 16) + rem;
+}
+
+:root {
+  --color-green: #97ce4c;
+  --color-yellow: #f0e14a;
+  --color-pink: #e89ac7;
+  --color-brown: #44281d;
+  --color-light-brown: #e4a788;
+}
+
+* {
+  box-sizing: border-box;
+}
